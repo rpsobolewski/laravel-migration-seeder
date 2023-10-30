@@ -15,7 +15,7 @@ class TrainsTableSeeder extends Seeder
      * Run the database seeds.
      */
     // USES FAKER
-    public function run(Faker $faker): void
+    public function run(Faker $faker)
     {
         //USES A FOR LOOP TO ADD 10 ENTRIES ON THE TABLE
         for ($i = 0; $i < 10; $i++) {
