@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('time_of_arrival');
             $table->string('train_number');
             $table->string('n_carriages');
-            $table->string('time_of_departure');
+
             $table->string('delay');
             $table->string('cancelled');
         });
