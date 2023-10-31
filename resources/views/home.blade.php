@@ -8,7 +8,12 @@
 </head>
 
 <body>
-    <h1>ao</h1>
+    <h1>List of Trains</h1>
+    <ul>
+        @foreach ($trains as $train)
+        <li>{{ $train->name }} - {{ $train->description }}</li>
+        @endforeach
+    </ul>
 </body>
 
 </html>

@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 use App\Http\Controllers\PageController as PageController;
 
-Route::get('/', [PageController::class, 'index']);
+Route::get('/', [PageController::class, 'home'])->name('home');;
